@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+/*---Header Section---*/
+header{
+    background-image: linear-gradient(to right, rgb(19, 192, 245), rgb(132, 0, 255));
+    width: 100%;
+    height: 80vh;
+    color: white;
+}
+
+header h5{
+    color: white;
+    padding: 10px;
+}
+
+header h1{
+    padding: 70px 0px 0px 0px;
+    font-size: 100px;
+    text-transform: uppercase;
+    line-height: 90px;
+    font-weight: 400;
+    background-image: linear-gradient(to right, rgb(126, 246, 255), rgb(255, 119, 244));
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+
+}
+
+header h1 span{
+    font-weight: 700;
+}
+
+header h2{
+    font-weight: 200;
+}
+
+header h4{
+    text-align: center;
+    margin-top: 170px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+/*---Breadcrumb---*/
+ul{
+    padding: 10px;
+    background-color: rgb(241, 241, 241);
+    width: 100%;
+}
+
+ul li{
+    display: inline;
+}
+
+ul li+li::before{
+    content: ">";
+}
+
+ul li a{
+    text-decoration: none;
+    padding: 12px;
+    color: rgb(161, 161, 161);
+}
+
+.active{
+    color: rgb(43, 43, 43);
+}
+
+/*---Colors Section---*/
+.colors{
+    margin-top: 150px;
+    text-align: center;
+    text-transform: uppercase;
+    height: 600px;
+}
+
+.color-section{
+    background-image: url(../img/material-colors-1024x513.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    margin-top: 30px;
+}
+
+/*---Fonts Section---*/
+.fonts{
+    width: 100%;
+    height: 700px;
+    margin-top: 100px;
+}
+
+.fonts h1{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.fonts h2{
+    font-weight: 700;
+    font-size: 28px;
+    padding: 10px;
+}
+
+.fonts p{
+    font-size: 23px;
+    line-height: 40px;
+    color: rgb(46, 46, 46);
+}
+
+.fonts .container{
+    height: 300px;
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.font-1 , .font-2 , .font-3{
+    border-radius: 10px;
+    width: 80%;
+    height: 430px;
+    padding: 20px;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 0px 0px 8px rgb(206, 206, 206);
+}
+
+.font-1{
+
+    font-family: Helvetica;
+}
+
+.font-3{
+    font-family: 'Dancing Script', cursive;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+
+/*---Footer Section---*/
+footer{
+    text-align: center;
+    padding: 50px;
+    background-image: linear-gradient(to right, rgb(19, 192, 245), rgb(132, 0, 255));
+    color: white;
+    font-weight: 200;
+}
